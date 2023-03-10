@@ -1,0 +1,48 @@
+*{
+    /* margin: 0;
+    padding: 0; */
+    box-sizing: border-box;
+}
+
+@import 'https://fonts.googleapis.com/css?family=Share+Tech+Mono';
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fff; 
+}
+.btn-to{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #bcbcd0;
+    width: 20rem;
+    height: 27rem;
+    border-radius: 10px;
+}
+
+.btn-group{
+    width: 55px;
+    text-align: center;
+    background-color: rgb(95, 93, 128);
+    margin: 5px;
+    font-size: 40px;
+    cursor: pointer;
+    border-radius: 7px;
+}
+
+.btn{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+#result{
+    outline: none;
+    width: 15rem;
+    height: 3rem;
+    font-size: 30px;
+    margin-bottom: 26px;
+}
