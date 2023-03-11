@@ -15,22 +15,23 @@
         <h1 id="header">Calculator</h1>
         <input type="text" id="result" disabled>
         <div class="btn">
-            <div id="" class="btn-group" onclick="backspace('C')">C</div>
-            <div id="" class="btn-group"onclick="appendvalue('*')">*</div>
-            <div id="" class="btn-group" aria-current="page" type="button" onclick="appendvalue('/')"><span>/</span></div>
+            <div id="" class="btn-group operator" onclick="backspace('C')">C</div>
+            <div id="" class="btn-group operator"onclick="appendvalue('*')">*</div>
+            <!-- <div id="" class="btn-group operator" aria-current="page" type="button" onclick="appendvalue('/')"><span>/</span></div> -->
+            <div id="" class="btn-group operator" aria-current="page" type="button" onclick="appendvalue('/')"><span>/</span></div>
             <div id="" class="btn-group" aria-current="page" type="button" onclick="sum()">=</div>
         </div>
         <div class="btn">
             <div id="" class="btn-group" onclick="appendvalue('1')">1</div>
             <div id="" class="btn-group" onclick="appendvalue('2')">2</div>
             <div id="" class="btn-group" onclick="appendvalue('3')">3</div>
-            <div id="" class="btn-group" aria-current="page" onclick="appendvalue('+')">+</div>
+            <div id="" class="btn-group operator" aria-current="page" onclick="appendvalue('+')">+</div>
         </div>
         <div class="btn">
             <div id="" class="btn-group" onclick="appendvalue('4')">4</div>
             <div id="" class="btn-group" onclick="appendvalue('5')">5</div>
             <div id="" class="btn-group" onclick="appendvalue('6')">6</div>
-            <div id="" class="btn-group" aria-current="page" type="button" onclick="appendvalue('-')">-
+            <div id="" class="btn-group operator" aria-current="page" type="button" onclick="appendvalue('-')">-
             </div>
         </div>
         <div class="btn" >
