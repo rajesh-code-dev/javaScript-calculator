@@ -1,6 +1,6 @@
 *{
-    /* margin: 0;
-    padding: 0; */
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -41,10 +41,11 @@ body{
 
 #result{
     outline: none;
-    width: 15rem;
+    width: 16rem;
     height: 3rem;
     font-size: 30px;
     margin-bottom: 26px;
+    border: none;
 }
 
 .operator{
